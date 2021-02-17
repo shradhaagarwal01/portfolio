@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+
+html, body{
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #0a192f !important;
+  width: 100%;
+  height: 100%;
+ }
+ .skills{
+  /*background-color: #030303;*/
+  color: #64ffda;
+  height: 100vh;
+}
+.experience{
+  color: #64ffda;
+  padding-bottom: 100px;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+
+h3, p{
+  padding: 5px;
+  font-size:23px;
+  color: #a2aabc;
+}
+
+.about{
+  height: 100vh;
+}
+
+.about{
+  color: #030303;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 237px;
+  right: 19px;
+  font-size: 55px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: #64ffda;
+}
+.bottom-left{
+  position: absolute;
+  bottom: 7px;
+}
+.alignment-top{
+  position: absolute;
+  bottom: 167px;
+  right: 24px;
+  font-size: 30px;
+  color: #a2aabc;
+}
+
+.alignment-bottom{
+  position: absolute;
+  bottom: 127px;
+  right: 22px;
+  font-size: 30px;
+  color: #a2aabc;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background: #0a192f;
+  color: #a2aabc;
+  font-weight: 300;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+  transition: transform .2s
+
+}
+
+.navbar__title:hover{
+  transform: scale(1.2);
+}
+
+.navbar__item {
+  padding: 16px 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.profile{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro p{
+   font-size: 18px;
+    max-width: 650px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+}
+
+.about h2, .skills h2, .experience h2, .projects h2{
+    color: #64ffda;
+    margin: 30px auto;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.button-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #64ffda;
+}
+
+button{
+  margin: 20px;
+ font-size: 18px;
+ height: 55px;
+ width: 150px;
+ border-radius: 6px;
+ background: #0a192f;
+cursor: pointer;
+border: 2px solid #a2aabc ;
+font-family: 'Roboto Mono', monospace;
+outline:none;
+}
+
+button:hover {
+  background: #a2aabc;
+}
+button:active {
+background: #0a192f;
+}
+
+.skills p, .contact p {
+    font-size: 18px;
+    margin: 30px auto;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 40px;
+    max-width: 1050px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+skills h3{
+  margin: 30px auto;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 35px;
+  color: #a2aabc;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #a2aabc;
+  justify-content: space-evenly;
+}
+
+.list{
+   font-family: 'Roboto Mono', monospace;
+}
+ul {   
+  padding: 0 1em;  
+  list-style: none;  
+} 
+li:before {   
+  content: "";  
+  border-color: transparent #64ffda;  
+  border-style: solid;  
+  border-width: 0.35em 0 0.35em 0.45em;  
+  display: block;  
+  height: 0;  
+  width: 0;  
+  left: -1em;  
+  top: 0.9em;  
+  position: relative;  
+} 
+
+.contact{
+  background-color: #0a192f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; 
+  padding-bottom: 50px;
+}
+
+.contact h2{
+  color: #64ffda;
+  margin: 30px auto;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.contact button{
+  margin: 20px;
+ font-size: 18px;
+ height: 55px;
+ width: 150px;
+ border-radius: 6px;
+ background: #0a192f;
+cursor: pointer;
+border: 2px solid #a2aabc ;
+font-family: 'Roboto Mono', monospace;
+outline:none;
+}
+
+.contact button:hover {
+  background: #a2aabc;
+}
+.contact button:active {
+background: #0a192f;
+}
+
+
+.resume-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-button a{
+  text-decoration: none;
+  color: #64ffda;
+}
+
+.skills button{
+    margin: 90px;
+    font-size: 18px;
+    height: 55px;
+    width: 290px;
+    border-radius: 6px;
+    background: #0a192f;
+    cursor: pointer;
+    border: 2px solid #a2aabc;
+    font-family: 'Roboto Mono', monospace;
+    color: #64ffda;
+    outline: none;
+}
+
+.skills button:hover {
+  background: #a2aabc;
+  font-weight: bold;
+}
+.skills button:active {
+background: #0a192f;
+}
+
+.footer{
+  padding: 20px;
+    background: #030303;
+    color: #a2aabc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.social{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+    font-size: 30px;
+    color: #a2aabc;
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 30px;
+  flex-direction: column;
+  background: #0a192f;
+}
+
+.footer h2{
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.contact a{
+  text-decoration: none;
+  color: #64ffda;
+}
+
+.about a{
+  text-decoration: none;
+  color: #64ffda;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #a2aabc;
+}
+
+.projects p{
+  font-size: 18px;
+    max-width: 650px;
+    margin: 10px 60px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.projects a{
+  text-decoration: none;
+  color: #64ffda;
+}
+
+.projects img {
+  width: 690px;
+  height: 388px;
+  float: left;
+}
+
+.project{
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+  background: #0a192f;
+  color: #a2aabc;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0px;
+  flex-direction: column;
+  background: #0a192f;
+  color: #a2aabc;
+}
+
+.projects h3{
+  color: #64ffda;
+  padding: 10px 30px;
+  font-size: 30px;
+}
+
+.project-button{
+  margin: 90px;
+  font-size: 18px;
+  height: 55px;
+  width: 290px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  outline: none;
+}
+/* 
+html, body {
+  width: 100%;
+  height: 100%;
+} */
+
+.bg-img {
+  position: relative;
+  width: 100%;
+  height: 660px;
+  background: url('./assests/download.gif') center center no-repeat;
+  background-size: cover;
+}
+  .bg-img:before {
+  content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: radial-gradient(circle, rgba(46,80,131,0.5217437316723564) 0%, rgba(10,25,47,1) 99%);
+  }
+
+  .moreProjects{
+    padding-bottom: 100px;
+  }
+
+  .experience p{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  }
+
+  .experience h3{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: rgb(35, 53, 84);
+  }
+
+ 
+
+  .experience h4{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  color:  #405475;
+  }
