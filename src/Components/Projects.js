@@ -5,9 +5,9 @@ import DrumKit from '../assests/DrumKit.PNG'
 import Tilt from 'react-tilt'
 import GithubCards from './GitHubCards'
 
-function Projects(props) {
-    return (
-      <section id='projects'>
+const Projects = () => {
+  return ( 
+    <section id='projects'>
         <div className="projects">
            <h2>WHAT I HAVE DONE</h2> 
            <div>
@@ -93,7 +93,6 @@ function Projects(props) {
         </div>
         
         </section>
-    );
-}
-
+   );
+};
 export default Projects;
