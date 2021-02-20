@@ -7,7 +7,7 @@ import GithubCards from './GitHubCards'
 
 function Projects(props) {
     return (
-      <div>
+      <section id='projects'>
         <div className="projects">
            <h2>WHAT I HAVE DONE</h2> 
            <div>
@@ -92,7 +92,7 @@ function Projects(props) {
         <GithubCards/>
         </div>
         
-        </div>
+        </section>
     );
 }
 
