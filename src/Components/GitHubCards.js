@@ -15,6 +15,7 @@ class GitHubCards extends Component {
     const api_key = process.env.REACT_APP_API_KEY;
 
     let repo = [
+      baseURL(`portfolio`),
       baseURL(`REST-APIs-CRUD-Operation`),
       baseURL(`Number-Guesser`),
       baseURL(`JS-CSS-Clock`),

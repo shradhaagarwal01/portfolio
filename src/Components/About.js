@@ -12,7 +12,7 @@ function About(props) {
                 I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p> 
             </div>
             <div className="button-box">
-                <button><a href="./Projects.js">See Projects</a></button>
+                <button><a href="#Projects">See Projects</a></button>
                 <button><a href="mailto:shradhaagarwal386@gmail.com">Hire Me</a></button>
             </div>
         </div>

@@ -6,16 +6,16 @@ function Landing(props) {
     return (
         <div>
             <header className='navbar'>
-                <div className='navbar__title navbar__item'><a href='../App.js'>Shradha</a></div>
-                <div className='navbar__item'><nav><a href='./About.js'>About</a></nav></div>
-                <div className='navbar__item'><nav><a href='./Skills.js'>Skills</a></nav></div>
-                <div className='navbar__item'><nav><a href='./Projects.js'>Projects</a></nav></div>    
-                <div className='navbar__item'><nav><a href='./Contact.js'>Contact</a></nav></div>
-                <div className='navbar__item'><nav><a href='https://drive.google.com/file/d/1ESbD1qGv6fHjgVMxIXDqp_8HPsWlS3Bd/view' 
+                <div className='navbar__title navbar__item'><a href='#App'>Shradha</a></div>
+                <div className='navbar__item'><nav><a href='#About'>About</a></nav></div>
+                <div className='navbar__item'><nav><a href='#Skills'>Skills</a></nav></div>
+                <div className='navbar__item'><nav><a href='#Projects'>Projects</a></nav></div>    
+                <div className='navbar__item'><nav><a href='#Contact'>Contact</a></nav></div>
+                <div className='navbar__item'><nav><a href='https://drive.google.com/file/d/1BcYqQDY6afuntcWbg-oNXG91Nq2pVpPs/view?usp=sharing' 
                 target="_blank" rel="noopener noreferrer">Resume</a></nav></div>      
             </header>
-        <div class="container">
-          <div class="bg-img"></div>
+        <div className="container">
+          <div className="bg-img"></div>
           <div className="bottom-right">HI, I'M SHRADHA!</div>
           <div>
             <p className="alignment-top">And I might be the developer</p>
