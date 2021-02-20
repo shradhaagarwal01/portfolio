@@ -6,13 +6,18 @@ function Landing(props) {
     return (
         <div>
             <header className='navbar'>
-                <div className='navbar__title navbar__item'><a href='#App'>Shradha</a></div>
-                <div className='navbar__item'><nav><a href='#About'>About</a></nav></div>
-                <div className='navbar__item'><nav><a href='#Skills'>Skills</a></nav></div>
-                <div className='navbar__item'><nav><a href='#Projects'>Projects</a></nav></div>    
-                <div className='navbar__item'><nav><a href='#Contact'>Contact</a></nav></div>
-                <div className='navbar__item'><nav><a href='https://drive.google.com/file/d/1BcYqQDY6afuntcWbg-oNXG91Nq2pVpPs/view?usp=sharing' 
-                target="_blank" rel="noopener noreferrer">Resume</a></nav></div>      
+              <nav>
+                <ul>
+                  <li className='navbar__title navbar__item'><a href='#App'>Shradha</a></li>
+                  <li className='navbar__item'><a href='#About'>About</a></li>
+                  <li className='navbar__item'><a href='#Skills'>Skills</a></li>
+                  <li className='navbar__item'><a href='#Projects'>Projects</a></li>
+                  <li className='navbar__item'><a href='#Contact'>Contact</a></li>
+                  <li className='navbar__item'><a href=
+                   'https://drive.google.com/file/d/1BcYqQDY6afuntcWbg-oNXG91Nq2pVpPs/view?usp=sharing' 
+                   target="_blank" rel="noopener noreferrer">Resume</a></li>
+                </ul>
+              </nav>    
             </header>
         <div className="container">
           <div className="bg-img"></div>
