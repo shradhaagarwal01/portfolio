@@ -1,24 +1,12 @@
 import React from 'react';
 import { FaCodepen, FaEnvelopeSquare, FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import Navbar from './Navbar'
 
 
 function Landing(props) {
     return (
         <div>
-            <header className='navbar'>
-              <nav>
-                <ul>
-                  <li className='navbar__title navbar__item'><a href='#App'>Shradha</a></li>
-                  <li className='navbar__item'><a href='#About'>About</a></li>
-                  <li className='navbar__item'><a href='#Skills'>Skills</a></li>
-                  <li className='navbar__item'><a href='#Projects'>Projects</a></li>
-                  <li className='navbar__item'><a href='#Contact'>Contact</a></li>
-                  <li className='navbar__item'><a href=
-                   'https://drive.google.com/file/d/1BcYqQDY6afuntcWbg-oNXG91Nq2pVpPs/view?usp=sharing' 
-                   target="_blank" rel="noopener noreferrer">Resume</a></li>
-                </ul>
-              </nav>    
-            </header>
+        <Navbar/>
         <div className="container">
           <div className="bg-img"></div>
           <div className="bottom-right">HI, I'M SHRADHA!</div>
