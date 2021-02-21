@@ -7,7 +7,7 @@ function Landing(props) {
     return (
         <div>
         <Navbar/>
-        <div className="container">
+        <div id="App" className="container">
           <div className="bg-img"></div>
           <div className="bottom-right">HI, I'M SHRADHA!</div>
           <div>
