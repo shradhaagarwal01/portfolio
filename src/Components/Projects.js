@@ -6,22 +6,22 @@ import Tilt from 'react-tilt'
 import GithubCards from './GitHubCards'
 
 const Projects = () => {
-  return ( 
-    <section id='projects'>
+  return (
+    <section id='Projects'>
         <div className="projects">
-           <h2>WHAT I HAVE DONE</h2> 
+           <h2>WHAT I HAVE DONE</h2>
            <div>
                 <h3>SMART BRAIN</h3>
                 <div  className="project">
                 <Tilt className="Tilt" options={{ max : 5 }}>
-                <div className="Tilt-inner"><a href="https://shradha-smart-brain.herokuapp.com/" 
+                <div className="Tilt-inner"><a href="https://shradha-smart-brain.herokuapp.com/"
                 target="_blank" rel="noopener noreferrer"><img src={SmartBrain} alt="project"/></a></div>
                 </Tilt>
                 <div className="description">
                 <div>
                   <p>
-                  Smart-Brain uses Clarifai API to detect face in an image. 
-                  It helps to detect face in a picture provided by user through URL of image. 
+                  Smart-Brain uses Clarifai API to detect face in an image.
+                  It helps to detect face in a picture provided by user through URL of image.
                   User's rank gets upgraded everytime user detects image in a picture.
                   </p>
                 </div>
@@ -35,7 +35,7 @@ const Projects = () => {
                 </div>
                 </div>
                 </div>
-            </div>  
+            </div>
             <div>
                 <h3>ROBOFRIENDS</h3>
                 <div  className="project">
@@ -57,16 +57,16 @@ const Projects = () => {
                 </div>
                 </div>
                 <Tilt className="Tilt" options={{ max : 5 }}>
-                <div className="Tilt-inner"><a href="https://shradhaagarwal01.github.io/RoboFriends/" 
+                <div className="Tilt-inner"><a href="https://shradhaagarwal01.github.io/RoboFriends/"
                 target="_blank" rel="noopener noreferrer"><img src={RoboFriends} alt="project"/></a></div>
                 </Tilt>
                 </div>
-            </div>  
+            </div>
             <div>
                 <h3>DRUM KIT</h3>
                 <div  className="project">
                 <Tilt className="Tilt" options={{ max : 5 }}>
-                <div className="Tilt-inner"><a href="https://shradhaagarwal01.github.io/Drum-Kit/" 
+                <div className="Tilt-inner"><a href="https://shradhaagarwal01.github.io/Drum-Kit/"
                 target="_blank" rel="noopener noreferrer"><img src={DrumKit} alt="project"/></a></div>
                 </Tilt>
                 <div className="description">
@@ -85,13 +85,13 @@ const Projects = () => {
                 </div>
                 </div>
                 </div>
-            </div> 
+            </div>
            <h3>SOME OTHER PROJECTS</h3>
         </div>
         <div className="moreProjects">
         <GithubCards/>
         </div>
-        
+
         </section>
    );
 };

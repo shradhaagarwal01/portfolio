@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills(props) {
     return (
-        <div className="skills">
+        <div id="Skills" className="skills">
             <h2>SKILLS</h2>
             <p>I've been doing web development for about 1 year now, and I'm always eager to learn more in this fast paced industry.</p>
             <div className="grid">
@@ -36,7 +36,7 @@ function Skills(props) {
                 </div>
             </div>
             <div className="resume-button">
-                <button><a href='https://drive.google.com/file/d/1BcYqQDY6afuntcWbg-oNXG91Nq2pVpPs/view?usp=sharing' 
+                <button><a href='https://drive.google.com/file/d/1BcYqQDY6afuntcWbg-oNXG91Nq2pVpPs/view?usp=sharing'
                 target="_blank" rel="noopener noreferrer">Grab A Copy of my Resume</a></button>
             </div>
         </div>
