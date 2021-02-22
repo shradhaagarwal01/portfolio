@@ -10,6 +10,22 @@ Here is a working live demo : https://shradhaagarwal01.github.io/portfolio/
 If you have questions about implementation, please refer to the [React docs](https://reactjs.org/docs/getting-started.html) or [mail](shradhaagarwal386@gmail.com) me.
 Yes, you can fork this repo. Please give proper credits by linking back to [ShradhaAgarwal](https://github.com/shradhaagarwal01) also. Thanks!
 
+
+
+## Installation
+
+    $ git clone https://github.com/shradhaagarwal01/portfolio
+    $ cd portfolio
+    $ npm install
+
+### Start & watch
+
+    $ npm start
+
+### Simple build for production
+
+    $ npm run build
+
 ### Development
 
 Want to contribute? Great!
