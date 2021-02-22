@@ -7,7 +7,7 @@ This project was created with HTML5, CSS3, JavaScript, React, material ui and ax
 
 Here is a working live demo : https://shradhaagarwal01.github.io/portfolio/
 
-If you have questions about implementation, please refer to the [React docs](https://reactjs.org/docs/getting-started.html) or [mail](shradhaagarwal386@gmail.com) me.
+If you have questions about implementation, please refer to the [React docs](https://reactjs.org/docs/getting-started.html) or [mail](mailto:shradhaagarwal386@gmail.com) me.
 Yes, you can fork this repo. Please give proper credits by linking back to [ShradhaAgarwal](https://github.com/shradhaagarwal01) also. Thanks!
 
 
