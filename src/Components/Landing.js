@@ -5,12 +5,12 @@ import Navbar from './Navbar'
 
 function Landing(props) {
     return (
-        <div>
+        <div className="container-landing">
         <Navbar/>
         <div id="App" className="container">
           <div className="bg-img"></div>
           <div className="bottom-right">HI, I'M SHRADHA!</div>
-          <div>
+          <div className="div-center">
             <p className="alignment-top">And I might be the developer</p>
             <p className="alignment-bottom">you are looking for.</p>
           </div>

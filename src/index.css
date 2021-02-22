@@ -1,40 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
 
-
-
-html, body{
+html,
+body {
   margin: 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   background-color: #0a192f !important;
+  min-width: 320px;
   width: 100%;
   height: 100%;
- }
- .skills{
-  /*background-color: #030303;*/
+}
+.skills {
   color: #64ffda;
   height: 100vh;
 }
-.experience{
+.experience {
   color: #64ffda;
   padding-bottom: 100px;
 }
-.app{
-    display: flex;
-    flex-direction: column;
+.root {
+  min-width: 320px;
+  height: auto;
 }
 
-h3, p{
+.container-landing {
+  width: 100%;
+}
+.app {
+  min-width: 320px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3,
+p {
   padding: 5px;
-  font-size:23px;
+  font-size: 23px;
   color: #a2aabc;
 }
 
-.about{
-  height: 100vh;
+.about {
+  height: auto;
 }
 
-.about{
+.about {
   color: #030303;
 }
 
@@ -45,41 +58,45 @@ h3, p{
   flex-direction: column;
 }
 .bottom-right {
+  height: auto;
   position: absolute;
-  bottom: 237px;
+  top: 140px;
   right: 19px;
   font-size: 55px;
   font-weight: 300;
   letter-spacing: 3px;
   color: #64ffda;
 }
-.bottom-left{
+.bottom-left {
   position: absolute;
   bottom: 7px;
 }
-.alignment-top{
+
+.alignment-top {
   position: absolute;
-  bottom: 167px;
+  top: 260px;
   right: 24px;
-  font-size: 30px;
   color: #a2aabc;
+  text-align: end;
 }
 
-.alignment-bottom{
+.alignment-bottom {
   position: absolute;
+  top: 320px;
   bottom: 127px;
   right: 22px;
-  font-size: 30px;
   color: #a2aabc;
 }
 
 .navbar {
+  width: 100%;
   align-items: center;
   background: #0a192f;
   color: #a2aabc;
   font-weight: 300;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 18px;
+  display: block;
 }
 
 .navbar ul {
@@ -91,11 +108,10 @@ h3, p{
   margin-right: auto;
   font-size: 150%;
   padding: 12px 16px;
-  transition: transform .2s
-
+  transition: transform 0.2s;
 }
 
-.navbar__title:hover{
+.navbar__title:hover {
   transform: scale(1.2);
 }
 
@@ -105,7 +121,7 @@ h3, p{
   vertical-align: middle;
 }
 
-.profile{
+.profile {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -115,63 +131,62 @@ h3, p{
   margin-right: auto;
 }
 
-.intro p{
-   font-size: 18px;
-    max-width: 650px;
-    margin: 30px auto;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    padding-bottom: 20px;
+.intro p {
+  max-width: 650px;
+  margin: 30px auto;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 20px;
 }
 
-.about h2, .skills h2, .experience h2, .projects h2{
-    color: #64ffda;
-    margin: 30px auto;
-    font-weight: 200;
-    letter-spacing: 1px;
-    font-size: 35px;
-    text-align: center;
+.about h2,
+.skills h2,
+.experience h2,
+.projects h2 {
+  color: #64ffda;
+  margin: 30px auto;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
-.button-box{
+.button-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   color: #64ffda;
 }
-
-button{
+button {
   margin: 20px;
- font-size: 18px;
- height: 55px;
- width: 150px;
- border-radius: 6px;
- background: #0a192f;
-cursor: pointer;
-border: 2px solid #a2aabc ;
-font-family: 'Roboto Mono', monospace;
-outline:none;
+  font-size: 18px;
+  height: 55px;
+  width: 150px;
+  border-radius: 6px;
+  background: #0a192f;
+  cursor: pointer;
+  border: 2px solid #a2aabc;
+  font-family: "Roboto Mono", monospace;
+  outline: none;
 }
 
 button:hover {
   background: #a2aabc;
 }
 button:active {
-background: #0a192f;
+  background: #0a192f;
 }
 
-.skills p, .contact p {
-    font-size: 18px;
-    margin: 30px auto;
-    font-family: 'Roboto Mono', monospace;
-    padding-bottom: 40px;
-    max-width: 1050px;
-    margin: 0px auto;
-    text-align: center;
+.skills p,
+.contact p {
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 40px;
+  max-width: 1050px;
+  margin: 0px auto;
+  text-align: center;
 }
 
-skills h3{
+.skills h3 {
   margin: 30px auto;
   font-weight: 200;
   letter-spacing: 1px;
@@ -179,16 +194,8 @@ skills h3{
   color: #a2aabc;
 }
 
-.grid{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  color: #a2aabc;
-  justify-content: space-evenly;
-}
-
-.list{
-   font-family: 'Roboto Mono', monospace;
+.list {
+  font-family: "Roboto Mono", monospace;
 }
 ul {
   padding: 0 1em;
@@ -208,7 +215,7 @@ ul {
   position: relative;
 }
 
-.contact{
+.contact {
   background-color: #0a192f;
   display: flex;
   flex-direction: column;
@@ -218,7 +225,7 @@ ul {
   padding-bottom: 50px;
 }
 
-.contact h2{
+.contact h2 {
   color: #64ffda;
   margin: 30px auto;
   font-weight: 200;
@@ -227,50 +234,49 @@ ul {
   text-align: center;
 }
 
-.contact button{
+.contact button {
   margin: 20px;
- font-size: 18px;
- height: 55px;
- width: 150px;
- border-radius: 6px;
- background: #0a192f;
-cursor: pointer;
-border: 2px solid #a2aabc ;
-font-family: 'Roboto Mono', monospace;
-outline:none;
+  font-size: 18px;
+  height: 55px;
+  width: 150px;
+  border-radius: 6px;
+  background: #0a192f;
+  cursor: pointer;
+  border: 2px solid #a2aabc;
+  font-family: "Roboto Mono", monospace;
+  outline: none;
 }
 
 .contact button:hover {
   background: #a2aabc;
 }
 .contact button:active {
-background: #0a192f;
+  background: #0a192f;
 }
 
-
-.resume-button{
+.resume-button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.resume-button a{
+.resume-button a {
   text-decoration: none;
   color: #64ffda;
 }
 
-.skills button{
-    margin: 90px;
-    font-size: 18px;
-    height: 55px;
-    width: 290px;
-    border-radius: 6px;
-    background: #0a192f;
-    cursor: pointer;
-    border: 2px solid #a2aabc;
-    font-family: 'Roboto Mono', monospace;
-    color: #64ffda;
-    outline: none;
+.skills button {
+  margin: 90px;
+  font-size: 18px;
+  height: 55px;
+  width: 290px;
+  border-radius: 6px;
+  background: #0a192f;
+  cursor: pointer;
+  border: 2px solid #a2aabc;
+  font-family: "Roboto Mono", monospace;
+  color: #64ffda;
+  outline: none;
 }
 
 .skills button:hover {
@@ -278,32 +284,32 @@ background: #0a192f;
   font-weight: bold;
 }
 .skills button:active {
-background: #0a192f;
+  background: #0a192f;
 }
 
-.footer{
+.footer {
   padding: 20px;
-    background: #030303;
-    color: #a2aabc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-.social{
+  background: #030303;
+  color: #a2aabc;
   display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    padding: 10px;
-    font-size: 30px;
-    color: #a2aabc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-.projects{
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 10px;
+  font-size: 30px;
+  color: #a2aabc;
+}
+
+.projects {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,41 +319,41 @@ background: #0a192f;
   background: #0a192f;
 }
 
-.footer h2{
-    font-size: 18px;
-    font-family: 'Roboto Mono', monospace;
-    padding-bottom: 20px;
-    margin: 0px auto;
-    text-align: center;
-    font-weight: lighter;
+.footer h2 {
+  font-size: 18px;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 20px;
+  margin: 0px auto;
+  text-align: center;
+  font-weight: lighter;
 }
 
-.contact a{
+.contact a {
   text-decoration: none;
   color: #64ffda;
 }
 
-.about a{
+.about a {
   text-decoration: none;
   color: #64ffda;
 }
 
-.navbar a{
+.navbar a {
   text-decoration: none;
   color: #a2aabc;
 }
 
-.projects p{
+.projects p {
   font-size: 18px;
-    max-width: 650px;
-    margin: 10px 60px;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    padding-bottom: 20px;
-    float: right;
+  max-width: 650px;
+  margin: 10px 60px;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 20px;
+  float: right;
 }
 
-.projects a{
+.projects a {
   text-decoration: none;
   color: #64ffda;
 }
@@ -358,7 +364,7 @@ background: #0a192f;
   float: left;
 }
 
-.project{
+.project {
   display: flex;
   padding: 30px;
   flex-direction: row;
@@ -366,7 +372,7 @@ background: #0a192f;
   color: #a2aabc;
 }
 
-.description{
+.description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -377,20 +383,20 @@ background: #0a192f;
   color: #a2aabc;
 }
 
-.projects h3{
+.projects h3 {
   color: #64ffda;
   padding: 10px 30px;
   font-size: 30px;
 }
 
-.project-button{
+.project-button {
   margin: 90px;
   font-size: 18px;
   height: 55px;
   width: 290px;
   border-radius: 6px;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   outline: none;
 }
 /*
@@ -403,41 +409,156 @@ html, body {
   position: relative;
   width: 100%;
   height: 650px;
-  background: url('./assests/download.gif') center center no-repeat;
+  background: url("./assests/download.gif") center center no-repeat;
   background-size: cover;
 }
-  .bg-img:before {
-  content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-image: radial-gradient(circle, rgba(46,80,131,0.5217437316723564) 0%, rgba(10,25,47,1) 99%);
-  }
+.bg-img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(46, 80, 131, 0.5217437316723564) 0%,
+    rgba(10, 25, 47, 1) 99%
+  );
+}
 
-  .moreProjects{
-    padding-bottom: 100px;
-  }
+.moreProjects {
+  padding-bottom: 100px;
+}
 
-  .experience p{
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
+.experience p {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
   font-size: 18px;
-  }
+}
 
-  .experience h3{
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
+.experience h3 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
   font-size: 20px;
   color: rgb(35, 53, 84);
-  }
+}
 
-
-
-  .experience h4{
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
+.experience h4 {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
   font-size: 18px;
-  color:  #405475;
+  color: #405475;
+}
+
+@media screen and (min-width: 300px) {
+  .navbar {
+    margin: 10px 0;
+    width: 100%;
   }
+  .navbar ul {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bottom-right {
+    font-size: 32px;
+  }
+  .alignment-top {
+    top: 235px;
+    right: 24px;
+    font-size: 22px;
+  }
+  .alignment-bottom {
+    top: 295px;
+    bottom: 127px;
+    right: 22px;
+    font-size: 22px;
+  }
+
+  .about h2,
+  .skills h2,
+  .experience h2,
+  .projects h2 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .intro p {
+    margin: 0 15px;
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    height: 42px;
+    width: 118px;
+  }
+
+  .skills p,
+  .contact p {
+    padding: 0 20px;
+    font-size: 18px;
+  }
+
+  .skills h3 {
+    font-size: 20px;
+  }
+
+  .grid {
+    margin: 0 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .navbar ul {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .bottom-right {
+    font-size: 50px;
+  }
+
+  .alignment-top,
+  .alignment-bottom {
+    font-size: 30px;
+  }
+  .about h2,
+  .skills h2,
+  .experience h2,
+  .projects h2 {
+    font-size: 35px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+
+  button {
+    margin: 20px;
+    font-size: 18px;
+    height: 55px;
+    width: 150px;
+    border-radius: 6px;
+    background: #0a192f;
+    cursor: pointer;
+    border: 2px solid #a2aabc;
+    font-family: "Roboto Mono", monospace;
+    outline: none;
+  }
+  .skills h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .grid {
+    grid-template-columns: repeat(3, 20%);
+    grid-gap: 5px;
+    justify-content: space-evenly;
+  }
+}
