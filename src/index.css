@@ -141,6 +141,22 @@ h3, p{
   color: #64ffda;
 }
 
+@media only screen and (max-width: 750px) {
+  .skills {
+    margin-top: 200px;
+  }
+
+  .button-box {
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .skills {
+    margin-top: 400px;
+  }
+}
+
 button{
   margin: 20px;
  font-size: 18px;
