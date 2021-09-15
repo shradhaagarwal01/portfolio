@@ -8,7 +8,7 @@ function About(props) {
             <div className="intro">
                 <img className = "profile" src={Shradha} alt="profile"/>
                 <p>Hey! My name is Shradha Agarwal and I'm a web developer with a passion for front end development and design.
-                I'm currently a third year student at Jaypee University of Information Technology pursuing Bachelor's degree in Computer Science.
+                I'm currently a final year student at Jaypee University of Information Technology pursuing Bachelor's degree in Computer Science.
                 I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.</p>
             </div>
             <div className="button-box">
