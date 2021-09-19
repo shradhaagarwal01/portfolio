@@ -40,7 +40,7 @@ class Experience extends Component {
           <h4 className="vertical-timeline-element-subtitle">Jaypee University of Information Technology, Solan</h4>
           <p>
             Persuing B.Tech in Computer Science and Engineering.<br/>
-            CGPA - 8.2
+            CGPA - 8.4
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

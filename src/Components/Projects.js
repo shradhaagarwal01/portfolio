@@ -3,7 +3,6 @@ import SmartBrain from '../assests/SmartBrain.PNG'
 import RoboFriends from '../assests/RoboFriends.PNG'
 import DrumKit from '../assests/DrumKit.PNG'
 import Tilt from 'react-tilt'
-import GithubCards from './GitHubCards'
 
 const Projects = () => {
   return (
@@ -86,12 +85,7 @@ const Projects = () => {
                 </div>
                 </div>
             </div>
-           <h3>SOME OTHER PROJECTS</h3>
         </div>
-        <div className="moreProjects">
-        <GithubCards/>
-        </div>
-
         </section>
    );
 };
