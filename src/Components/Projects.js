@@ -73,10 +73,10 @@ const Projects = () => {
                   </p>
                 </div>
                 <div className="button-box">
-                    <button><a target="_blank" rel="noopener noreferrer" href="https://github.com/shradhaagarwal01/Drum-Kit">
+                    <button><a target="_blank" rel="noopener noreferrer" href="https://shradhaagarwal01.github.io/Drum-Kit/">
                     See Live
                     </a></button>
-                    <button><a target="_blank" rel="noopener noreferrer" href="https://github.com/shradhaagarwal01/Smart-Brain">
+                    <button><a target="_blank" rel="noopener noreferrer" href="https://github.com/shradhaagarwal01/Drum-Kit">
                     Source Code
                     </a></button>
                 </div>
