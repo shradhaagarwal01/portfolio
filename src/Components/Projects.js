@@ -12,27 +12,25 @@ const Projects = () => {
            <div>
                 <h3>SMART BRAIN</h3>
                 <div  className="project">
-                <Tilt className="Tilt" options={{ max : 5 }}>
-                <div className="Tilt-inner"><a href="https://shradha-smart-brain.herokuapp.com/"
-                target="_blank" rel="noopener noreferrer"><img src={SmartBrain} alt="project"/></a></div>
-                </Tilt>
-                <div className="description">
-                <div>
-                  <p>
-                  Smart-Brain uses Clarifai API to detect face in an image.
-                  It helps to detect face in a picture provided by user through URL of image.
-                  User's rank gets upgraded everytime user detects image in a picture.
-                  </p>
-                </div>
-                <div className="button-box">
-                    <button><a target="_blank" rel="noopener noreferrer" href="https://shradha-smart-brain.herokuapp.com/">
-                    See Live
-                    </a></button>
-                    <button><a target="_blank" rel="noopener noreferrer" href="https://github.com/shradhaagarwal01/Smart-Brain">
-                    Source Code
-                    </a></button>
-                </div>
-                </div>
+                  <Tilt className="Tilt" options={{ max : 5 }}>
+                    <div className="Tilt-inner"><a href="https://shradha-smart-brain.herokuapp.com/"
+                    target="_blank" rel="noopener noreferrer"><img src={SmartBrain} alt="project"/></a></div>
+                  </Tilt>
+                  <div className="description">
+                      <p>
+                      Smart-Brain uses Clarifai API to detect face in an image.
+                      It helps to detect face in a picture provided by user through URL of image.
+                      User's rank gets upgraded everytime user detects image in a picture.
+                      </p>
+                    <div className="button-box">
+                        <button><a target="_blank" rel="noopener noreferrer" href="https://shradha-smart-brain.herokuapp.com/">
+                        See Live
+                        </a></button>
+                        <button><a target="_blank" rel="noopener noreferrer" href="https://github.com/shradhaagarwal01/Smart-Brain">
+                        Source Code
+                        </a></button>
+                    </div>
+                  </div>
                 </div>
             </div>
             <div>
