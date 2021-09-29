@@ -7,13 +7,13 @@ html, body{
   margin: 0;
   font-family: 'Playfair Display', serif;
   background-color: #0a192f !important;
-  width: 100%;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
  }
  .skills{
   /*background-color: #030303;*/
   color: #64ffda;
-  height: 100vh;
+  height: fit-content;
 }
 .experience{
   color: #64ffda;
@@ -31,10 +31,7 @@ h3, p{
 }
 
 .about{
-  height: 100vh;
-}
-
-.about{
+  height: fit-content;
   color: #030303;
 }
 
@@ -304,13 +301,10 @@ background: #0a192f;
 }
 
 .projects{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   padding: 30px;
   flex-direction: column;
   background: #0a192f;
-  border: 2px solid purple;
 }
 
 .footer h2{
@@ -354,21 +348,19 @@ background: #0a192f;
 .projects img {
   width: 690px;
   height: 388px;
+  margin: 0 15px;
 }
 
 .project{
   display: flex;
-  padding: 30px;
   background: #0a192f;
   color: #a2aabc;
-  border: 2px solid yellow
 }
 
 
 .description{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: nowrap;
   padding: 0px;
   flex-direction: column;
@@ -392,11 +384,6 @@ background: #0a192f;
   font-family: 'Roboto Mono', monospace;
   outline: none;
 }
-/*
-html, body {
-  width: 100%;
-  height: 100%;
-} */
 
 .bg-img {
   position: relative;
@@ -440,12 +427,12 @@ html, body {
   font-size: 18px;
   color:  #405475;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
     .project {
       flex-direction: column;
     }
     .projects img {
-      width: 350px;
+      width: fit-content;
       height: 235px;
       display: block;
       margin-left: auto;
@@ -453,9 +440,9 @@ html, body {
     }
     .projects p{
       font-size: 16px;
-        max-width: 350px;
+        max-width: fit-content;
         margin: 2px 2px;
-        padding: 20px 0px 0px 0px;
+        padding: 20px;
     }
     button{
      font-size: 18px;
@@ -471,24 +458,29 @@ html, body {
     .button-box {
       flex-wrap: nowrap;
   }
+  .description{
+    order: 3;
+  }
+  .Tilt{
+    order:2
+  }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1170px) {
   .project {
     flex-direction: column;
   }
   .projects img {
-    width: 450px;
-    height: 335px;
+    height: fit-content;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
+    max-width: 100%;
   }
   .projects p{
     font-size: 18px;
-      max-width: 350px;
+      max-width:fit-content;
       margin: 2px 2px;
-      padding: 20px 0px 0px 0px;
+      padding: 20px;
   }
   button{
    font-size: 18px;
@@ -503,5 +495,15 @@ html, body {
   }
   .button-box {
     flex-wrap: nowrap;
+}
+.button-box {
+  flex-wrap: nowrap;
+}
+
+.description{
+  order: 3;
+}
+.Tilt{
+  order:2
 }
 }
